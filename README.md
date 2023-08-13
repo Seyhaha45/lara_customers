@@ -20,9 +20,15 @@
 ## Configure Database
 នៅក្នុង​ file : .env ត្រូវកំណត់ដូចខាងក្រោម
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=lara_customers
-DB_USERNAME=root
-DB_PASSWORD=
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=lara_customers
+    DB_USERNAME=root
+    DB_PASSWORD=
+
+
+## Create Model and Migration
+
+    php artisan make:model Singer -mc
+    
